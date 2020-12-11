@@ -1,0 +1,68 @@
+
+/*coding for the top section start here*/
+.top-section{
+    height:60px;
+    background-color:#ffaba5;
+}
+/*coding for the top section ended here*/
+
+/*coding for computer navigation bar start here*/
+.computer-navigation{
+    height:50px !important;
+    background-color:black !important;
+}
+.sm-navigation{
+    background-color:black;
+    height:50px;
+}
+.fa-bars{
+    font-size:20px !important;
+}
+.computer-li{
+    margin-left:20px
+}
+/*coding for the navigation bar for computers ended here*/
+.background-image-wrapper{
+    height:30px !important;
+}
+.welcome-caption{
+    margin-left:-1700px
+}
+.we-do{
+    margin-right:-1700px;
+}
+.card-wrapper{
+    margin-right:-1700px;
+}
+.card{
+    border-bottom:solid 10px pink;
+}
+.welcome-caption-wrapper{
+    margin-top:240px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:765px){
+    .card-four{
+        margin-top:20px;
+    }
+}
+
+.details,.beauty-caption{
+    color:black !important;
+}
+.nav-list{
+    position:absolute;
+    background-color:#ffaba5 !important;
+    top:50px;
+    height:100%;
+    opacity:98%;
+    display:none;
+}
+.device-li{
+    list-style:none;
+    margin-top:20px;
+}
+.device-li a{
+    color:black !important;
+}
